@@ -4,7 +4,7 @@
 
 ### MVP: Machine Learning & Analytics, classificação binária supervisionada com scikit-learn
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XAKCN/Machine-Learning_Puc-Rio/blob/main/MVP_Machine_Learning_PUC_Rio_Credit_Risk_FINAL1.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XAKCN/Machine-Learning_Puc-Rio/blob/main/Machine_Learning.PUC-Rio.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.9-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![pandas](https://img.shields.io/badge/pandas-3.0-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
@@ -59,7 +59,7 @@ flowchart LR
 
 ```text
 .
-├── MVP_Machine_Learning_PUC_Rio_Credit_Risk_FINAL1.ipynb   # notebook executável (relatório técnico)
+├── Machine_Learning.PUC-Rio.ipynb   # notebook executável (relatório técnico)
 ├── default of credit card clients.xls                      # dataset original (UCI #350)
 ├── docs/
 │   └── img/                                                # gráficos exportados do notebook
@@ -338,7 +338,7 @@ No limiar padrão, o modelo é **conservador**: acerta 66% dos alertas, mas deix
 
 **Opção 1: Google Colab (recomendado)**
 
-Clique em [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XAKCN/Machine-Learning_Puc-Rio/blob/main/MVP_Machine_Learning_PUC_Rio_Credit_Risk_FINAL1.ipynb) e execute *Runtime → Run all*. O dataset é baixado automaticamente da URL *raw* deste repositório.
+Clique em [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/XAKCN/Machine-Learning_Puc-Rio/blob/main/Machine_Learning.PUC-Rio.ipynb) e execute *Runtime → Run all*. O dataset é baixado automaticamente da URL *raw* deste repositório.
 
 **Opção 2: local**
 
@@ -346,7 +346,7 @@ Clique em [![Open in Colab](https://colab.research.google.com/assets/colab-badge
 git clone https://github.com/XAKCN/Machine-Learning_Puc-Rio.git
 cd Machine-Learning_Puc-Rio
 pip install numpy pandas scikit-learn matplotlib seaborn xlrd python-dotenv jupyter
-jupyter notebook MVP_Machine_Learning_PUC_Rio_Credit_Risk_FINAL1.ipynb
+jupyter notebook Machine_Learning.PUC-Rio.ipynb
 ```
 
 <details>
